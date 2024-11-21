@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(183, 213, 229);
+    font-family: "Book Antiqua", "Aria","serif";
+}
+header{
+    background-color: rgb(157, 184, 199);
+}
+.s{
+    list-style-image: url("../img/yourna.jpg");
+}
+
+tr:hover{
+    background-color: #a9b9e0;
+}
+.sombra{
+    box-shadow: 3px 3px 5px #5dff85;
+}

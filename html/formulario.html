@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Formulário</title>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+ 
+    <link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+  <body>
+    <div class="container "style="background-color: rgb(183, 213, 229)">
+      <nav class="nav nav-pills justify-content-end"">
+        <a class="nav-link" href="../index.html"> Página Principal</a>
+        <a class="nav-link" href="./filme.html">Filme</a>
+        <a class="nav-link" href="./novel.html">Novel</a>
+        <a class="nav-link" href="./manga.html">Manga</a>
+        <a class="nav-link active" href="./formulario.html">Formulário</a>
+      </nav>
+
+  
+          <h2 class="display-3 text-center">Formulário de pesquisa</h2> 
+    
+          <form action="">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nome">
+           
+            <label for="email" class="form-label">Email</label>         
+            <input type="text" class="form-control" id="email"> 
+
+            <p>Já conhecia alguma obra relacionada a Your Name?</p>
+            <div class="form-check form-check-inline">
+              <label class="form-check-label"  for="rb1">Sim</label>
+              <input class="form-check-input" type="radio" name="radiobutton" id="rb1"> 
+            </div>
+            <div class="form-check form-check-inline">
+              <label class="form-check-label" for="rb2">Não</label>
+              <input class="form-check-input" type="radio" name="radiobutton" id="rb2">
+            </div>
+
+            <p>Qual obra mais gosta ou mais gostaria de conhecer?</p>
+
+            <div class="form-check form-check-inline">
+              <label class="form-check-label" for="caixa1">Filme</label>
+              <input class="form-check-input" type="checkbox" value="1" id="caixa1">
+            </div>
+            <div class="form-check form-check-inline">
+              <label class="form-check-label" for="caixa2">Light novel</label>
+              <input class="form-check-input" type="checkbox" value="1" id="caixa2">
+            </div>
+            <div class="form-check form-check-inline">
+              <label class="form-check-label" for="caixa3">Mangá</label>
+              <input class="form-check-input" type="checkbox" value="1" id="caixa3">
+            </div>
+            <div class="form-check form-check-inline">
+              <label class="form-check-label" for="caixa4">Nenhum</label>
+              <input class="form-check-input" type="checkbox" value="1" id="caixa4">
+            </div>
+            <div>
+            <label for="nota" class="form-label">Qual sua avaliação da obra:</label>
+              <select class="form-select" id="nota">
+              <option selected>Escolha sua nota</option>
+              <option value="1">5</option>
+              <option value="2">4</option>
+              <option value="3">3</option>
+              <option value="4">2</option>
+              <option value="5">1</option>
+              <option value="6">0</option>
+            </select>
+          </div>
+
+          <label for="opiniao" class="form-label">Qual a sua opinião sobre a obra:</label>
+          <input type="text" class="form-control" id="opiniao">
+
+                <input type="submit" value="Enviar">
+
+          </form>
+       
+          <nav><p align=left><a href="./manga.html">Mangá</a></p></nav>
+
+    </div>
+    <script src="../js/bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
